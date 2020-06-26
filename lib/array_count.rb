@@ -3,6 +3,7 @@ def count_strings(array)
   total_strings=0
   array.count do |String|
     if element.class == String
+      total_strings+=1
   end
 end
 
